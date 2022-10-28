@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/figma-page/static/css/main.614fc4b1.css",
+    "main.css": "/figma-page/static/css/main.77d420d8.css",
     "main.js": "/figma-page/static/js/main.5b3e6c67.js",
     "static/media/home.png": "/figma-page/static/media/home.0fe717dddfc62a982516.png",
     "static/media/about4.png": "/figma-page/static/media/about4.14ba5536cabd9d99b3dd.png",
@@ -10,11 +10,11 @@
     "static/media/about3.png": "/figma-page/static/media/about3.1eef4046cb4d00daa5fc.png",
     "static/media/about1.png": "/figma-page/static/media/about1.3016b066d87f4f8f2e3e.png",
     "index.html": "/figma-page/index.html",
-    "main.614fc4b1.css.map": "/figma-page/static/css/main.614fc4b1.css.map",
+    "main.77d420d8.css.map": "/figma-page/static/css/main.77d420d8.css.map",
     "main.5b3e6c67.js.map": "/figma-page/static/js/main.5b3e6c67.js.map"
   },
   "entrypoints": [
-    "static/css/main.614fc4b1.css",
+    "static/css/main.77d420d8.css",
     "static/js/main.5b3e6c67.js"
   ]
 }
