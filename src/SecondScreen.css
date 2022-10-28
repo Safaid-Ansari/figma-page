@@ -10,8 +10,8 @@
   position: absolute;
   width: 234px;
   height: 70px;
-  left: 69px;
-  top: 79px;
+  left: 97px;
+  top: 5px;
 
   font-family: "Exo 2";
   font-style: normal;
@@ -33,7 +33,7 @@
   width: 300px;
   height: 40px;
   left: 102px;
-  top: 200px;
+  top: 152px;
 
   font-family: "Ubuntu";
   font-style: normal;
@@ -53,7 +53,7 @@
   width: 500px;
   height: 300px;
   left: 65px;
-  top: 340px;
+  top: 260px;
   background: url(assests/explore1.png);
   border-radius: 25px;
 }
@@ -67,11 +67,9 @@
   left: 44px;
   top: 240px;
 
-  background: linear-gradient(
-    94.33deg,
-    rgba(255, 255, 255, 0.6) 3.19%,
-    rgba(255, 255, 255, 0.1) 99.26%
-  );
+  background: linear-gradient(94.33deg,
+      rgba(255, 255, 255, 0.6) 3.19%,
+      rgba(255, 255, 255, 0.1) 99.26%);
   backdrop-filter: blur(5px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -143,7 +141,7 @@
   width: 500px;
   height: 300px;
   left: 59%;
-  top: 340px;
+  top: 260px;
 
   background: url(assests/explore2.png);
   border-radius: 25px;
@@ -160,5 +158,4 @@
   border-radius: 25px;
 }
 
-@media screen and (max-width: 572px) {
-}
+@media screen and (max-width: 844px) {}

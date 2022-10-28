@@ -1,17 +1,17 @@
 .container {
-  position: relative;
+  position: absolute;
   width: 1152px;
   height: 700px;
 
   background: #ffffff;
 }
 
-.first-heading {
+.heading-first {
   position: absolute;
   width: 274px;
   height: 70px;
   left: 98px;
-  top: 44px;
+  top: -40px;
 
   font-family: "Exo 2";
   font-style: normal;
@@ -31,7 +31,7 @@
   width: 300px;
   height: 20px;
   left: 98px;
-  top: 170px;
+  top: 98px;
 
   font-family: "Ubuntu";
   font-style: normal;
@@ -51,7 +51,7 @@
   width: 400px;
   height: 266.99px;
   left: 98px;
-  top: 261px;
+  top: 193px;
 
   background: url(assests/about1.png);
   border-radius: 15px;
@@ -66,11 +66,9 @@
   left: 27px;
   top: 217px;
 
-  background: linear-gradient(
-    94.33deg,
-    rgba(255, 255, 255, 0.6) 3.19%,
-    rgba(255, 255, 255, 0.1) 99.26%
-  );
+  background: linear-gradient(94.33deg,
+      rgba(255, 255, 255, 0.6) 3.19%,
+      rgba(255, 255, 255, 0.1) 99.26%);
   backdrop-filter: blur(5px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -120,8 +118,8 @@
   position: absolute;
   width: 500px;
   height: 333.74px;
-  left: 640px;
-  top: 262px;
+  left: 691px;
+  top: 193px;
 
   background: url(assests/about2.png);
   border-radius: 15px;
@@ -136,11 +134,9 @@
   left: 27px;
   top: 275px;
 
-  background: linear-gradient(
-    94.33deg,
-    rgba(255, 255, 255, 0.6) 3.19%,
-    rgba(255, 255, 255, 0.1) 99.26%
-  );
+  background: linear-gradient(94.33deg,
+      rgba(255, 255, 255, 0.6) 3.19%,
+      rgba(255, 255, 255, 0.1) 99.26%);
   backdrop-filter: blur(5px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -186,16 +182,7 @@
   color: #000000;
 }
 
-.card-three {
-  position: absolute;
-  width: 500px;
-  height: 333.74px;
-  left: 110%;
-  top: 262px;
 
-  background: url(assests/about2.png);
-  border-radius: 15px;
-}
 
 .card-four {
   position: absolute;
@@ -212,7 +199,7 @@
   position: absolute;
   width: 500px;
   height: 420px;
-  left: 555px;
+  left: 691px;
   top: 722px;
 
   background: url(assests/about4.png);
@@ -228,16 +215,15 @@
   left: 47px;
   top: 367px;
 
-  background: linear-gradient(
-    94.33deg,
-    rgba(255, 255, 255, 0.6) 3.19%,
-    rgba(255, 255, 255, 0.1) 99.26%
-  );
+  background: linear-gradient(94.33deg,
+      rgba(255, 255, 255, 0.6) 3.19%,
+      rgba(255, 255, 255, 0.1) 99.26%);
   backdrop-filter: blur(5px);
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 15px;
 }
+
 .info-card5 h2 {
   position: absolute;
   width: 123px;
@@ -278,22 +264,14 @@
   color: #000000;
 }
 
-.card-six {
-  position: absolute;
-  width: 500px;
-  height: 420px;
-  left: 110%;
-  top: 722px;
 
-  background: url(assests/about4.png);
-  border-radius: 15px;
-}
 
 .footer {
   position: relative;
   bottom: -180%;
   height: 202px;
-  width: 1890px;
+  left: 7%;
+  /* width: 1890px; */
   background: white;
   border-radius: 0px 0px 30px 30px;
 }
@@ -307,6 +285,7 @@
   font-size: 30px;
   color: #000000;
 }
+
 .company {
   position: relative;
   left: 2%;

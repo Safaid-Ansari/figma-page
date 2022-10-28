@@ -21,6 +21,7 @@
 .overlap-group {
   min-height: 730px;
   box-sizing: border-box;
+
 }
 
 .logo {
@@ -101,7 +102,7 @@
   position: absolute;
   width: 940px;
   height: 100px;
-  left: 30%;
+  left: 17%;
   top: 527px;
 
   background: linear-gradient(94.43deg,
@@ -179,11 +180,13 @@
 .living {
   position: relative;
   top: -30%;
+  left: -11%;
 }
 
 .stay {
   position: relative;
   top: -80%;
+  left: -20%;
 }
 
 .guests span {
@@ -357,7 +360,8 @@
 
 @media screen and (max-width: 844px) {
   .overlap-group {
-    width: 500px;
+    position: relative;
+    left: 105%;
   }
 
   .nav {
@@ -384,13 +388,14 @@
   .stay {
     position: relative;
     top: -686%;
+    left: 0;
   }
 
   .rectangle-5 {
     height: 400px;
     top: 300px;
     width: 310px;
-    left: 20%;
+    left: 16%;
   }
 
   .exo2-normal-dove-gray-15px {

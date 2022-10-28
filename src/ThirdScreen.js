@@ -4,7 +4,7 @@ function ThirdScreen() {
   return (
     <>
       <div className="container">
-        <h1 className="first-heading">About Us </h1>
+        <h1 className="heading-first">About Us </h1>
         <span className="main-span">Allow us to tell you a short story </span>
 
         <div className="card-one">
@@ -27,15 +27,7 @@ function ThirdScreen() {
           </div>
         </div>
 
-        <div className="card-three">
-          <div className="info-card2">
-            <h2>Chapter 3 </h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididun{" "}
-            </span>
-          </div>
-        </div>
+   
 
         <div className="card-four">
           <div className="info-card2">
@@ -56,15 +48,7 @@ function ThirdScreen() {
             </span>
           </div>
         </div>
-        <div className="card-six">
-          <div className="info-card5">
-            <h2>Chapter 6 </h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididun{" "}
-            </span>
-          </div>
-        </div>
+    
 
         <div className="footer ">
           <div className="bottom-logo ">
