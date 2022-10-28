@@ -1,0 +1,333 @@
+.container {
+  position: relative;
+  width: 1152px;
+  height: 700px;
+
+  background: #ffffff;
+}
+
+.first-heading {
+  position: absolute;
+  width: 274px;
+  height: 70px;
+  left: 98px;
+  top: 44px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  /* or 70px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.main-span {
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  left: 98px;
+  top: 170px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.card-one {
+  position: absolute;
+  width: 400px;
+  height: 266.99px;
+  left: 98px;
+  top: 261px;
+
+  background: url(assests/about1.png);
+  border-radius: 15px;
+}
+
+.info-card {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 350px;
+  height: 130px;
+  left: 27px;
+  top: 217px;
+
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+.info-card h2 {
+  position: absolute;
+  width: 106px;
+  height: 26px;
+  left: 27px;
+  top: 0;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.info-card span {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 35px;
+  top: 71px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.card-two {
+  position: absolute;
+  width: 500px;
+  height: 333.74px;
+  left: 640px;
+  top: 262px;
+
+  background: url(assests/about2.png);
+  border-radius: 15px;
+}
+
+.info-card2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 350px;
+  height: 130px;
+  left: 27px;
+  top: 275px;
+
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+.info-card2 h2 {
+  position: absolute;
+  width: 106px;
+  height: 26px;
+  left: 27px;
+  top: 0;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.info-card2 span {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 35px;
+  top: 71px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.card-three {
+  position: absolute;
+  width: 500px;
+  height: 333.74px;
+  left: 110%;
+  top: 262px;
+
+  background: url(assests/about2.png);
+  border-radius: 15px;
+}
+
+.card-four {
+  position: absolute;
+  width: 400px;
+  height: 358.58px;
+  left: 98px;
+  top: 95%;
+
+  background: url(assests/about3.png);
+  border-radius: 15px;
+}
+
+.card-five {
+  position: absolute;
+  width: 500px;
+  height: 420px;
+  left: 555px;
+  top: 722px;
+
+  background: url(assests/about4.png);
+  border-radius: 15px;
+}
+
+.info-card5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 350px;
+  height: 128px;
+  left: 47px;
+  top: 367px;
+
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+.info-card5 h2 {
+  position: absolute;
+  width: 123px;
+  height: 26px;
+  left: 15px;
+  top: 0px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.info-card5 span {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 35px;
+  top: 71px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.card-six {
+  position: absolute;
+  width: 500px;
+  height: 420px;
+  left: 110%;
+  top: 722px;
+
+  background: url(assests/about4.png);
+  border-radius: 15px;
+}
+
+.footer {
+  position: relative;
+  bottom: -180%;
+  height: 202px;
+  width: 1890px;
+  background: white;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.bottom-logo {
+  position: absolute;
+  left: 2%;
+  bottom: 10%;
+  font-family: "Fasthand", cursive;
+  font-style: normal;
+  font-size: 30px;
+  color: #000000;
+}
+.company {
+  position: relative;
+  left: 2%;
+  width: 149px;
+  font-size: 15px;
+  font-family: "Ubuntu";
+}
+
+.bottom-section {
+  position: absolute;
+  width: 104px;
+  height: 39px;
+  left: 70%;
+  top: 54px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}

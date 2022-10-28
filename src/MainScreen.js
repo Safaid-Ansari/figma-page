@@ -1,0 +1,110 @@
+import React from "react";
+import "./MainScreen.css";
+import overlapGroup from "./assests/home.png";
+
+import image3 from "./assests/downarrow.png";
+import iconSearch from "./assests/searchIcon.png";
+
+function MainScreen() {
+  return (
+    <div className="container-center-horizontal">
+      <div className="mobile-first-screen screen">
+        <div
+          className="overlap-group"
+          style={{ backgroundImage: `url(${overlapGroup})` }}
+        >
+          <div className="rectangle-9"></div>
+          <div className="your-logo dancingscript-bold-white-45px">
+            <span className="logo">Your Logo </span>
+            <div className="bar"></div>
+            <div className="nav">
+              <span className="dancingscript-bold-white-45px" id="#Explore">
+                Explore{" "}
+              </span>
+              <span className="dancingscript-bold-white-45px">About us </span>
+              <span className="dancingscript-bold-white-45px">
+                Cities <img src={image3} alt="arrow"></img>
+              </span>
+              <span className="dancingscript-bold-white-45px button">
+                Call{" "}
+              </span>
+            </div>
+          </div>
+
+          <h1 className="title valign-text-middle exo2-bold-white-52px">
+            <span>
+              <span className="exo-2-bold-white-52px living">
+                <span style={{ marginLeft: "30px" }}>Rethink your</span>
+                <br></br>
+                living & renting{" "}
+              </span>
+            </span>
+          </h1>
+          <p className="make-your-stay-painless-with-us valign-text-middle ubuntu-medium-white-20px">
+            <span>
+              <span className="ubuntu-medium-white-20px stay">
+                Make your stay painless with us{" "}
+              </span>
+            </span>
+          </p>
+          <div className="rectangle-9-1"></div>
+          <div className="rectangle-4"></div>
+
+          <div className="rectangle-5">
+            <div className="city valign-text-middle exo2-normal-dove-gray-15px">
+              <span>
+                <span className="exo2-normal-dove-gray-15px ">CITY</span>
+              </span>
+            </div>
+            <div className="select-your-city valign-text-middle ubuntu-normal-black-22px">
+              <span>
+                <span className="ubuntu-normal-black-22px">
+                  Select your city{" "}
+                </span>
+              </span>
+            </div>
+            <div className="rectangle-11"></div>
+            <div className="guests valign-text-middle exo2-normal-dove-gray-15px">
+              <span>
+                <span className="exo2-normal-dove-gray-15px">GUESTS</span>
+              </span>
+            </div>
+            <div className="add-guests valign-text-middle ubuntu-normal-black-22px">
+              <span>
+                <span className="ubuntu-normal-black-22px">Add guests</span>
+              </span>
+            </div>
+            <div className="rectangle-10"></div>
+            <div className="dates valign-text-middle exo2-normal-dove-gray-15px">
+              <span>
+                <span className=" exo2-normal-dove-gray-15px">DATES</span>
+              </span>
+            </div>
+            <div className="select-your-dates valign-text-middle ubuntu-normal-black-22px">
+              <span>
+                <span className="ubuntu-normal-black-22px">
+                  Select your dates{" "}
+                </span>
+              </span>
+            </div>
+            <img className="image-3" src={image3} alt="imag"></img>
+            <div className="search-text-icon">
+              <img
+                className="icon-search"
+                src={iconSearch}
+                alt="icon-search"
+              ></img>
+              <div className="search valign-text-middle ubuntu-medium-white-26px">
+                <span>
+                  <span className="ubuntu-medium-white-26px">Search</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default MainScreen;

@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --dove-gray: rgba(109, 108, 108, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xs: 15px;
+  --font-size-s: 20px;
+  --font-size-m: 22px;
+  --font-size-l: 26px;
+  --font-size-xl: 45px;
+  --font-size-xxl: 52px;
+
+  --font-family-dancing-script: "Dancing Script";
+  --font-family-exo_2: "Exo 2";
+  --font-family-ubuntu: "Ubuntu";
+  --font-family-title: "'Ubuntu Mono', monospace;";
+}
+
+.overlap-group {
+  min-height: 730px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  color: var(--white);
+  margin-top: 50px;
+  position: relative;
+  top: 23px;
+  left: 23px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  cursor: pointer;
+}
+
+.nav span {
+  margin-right: 50px;
+  font-size: 30px;
+  color: var(--white);
+  font-family: var(--font-family-exo_2);
+  font-family: "Freehand", cursive;
+}
+
+.nav span img {
+  width: 25px;
+}
+
+.nav .button {
+  border: 1px solid;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.exo2-bold-white-52px {
+  position: absolute;
+  width: 795px;
+  height: 271px;
+  left: 40%;
+  top: 170px;
+  color: var(--white);
+  font-size: 70px;
+  font-family: "Abril Fatface", cursive;
+}
+
+.make-your-stay-painless-with-us {
+  position: relative;
+  width: 462px;
+  height: 68px;
+  left: 42%;
+  top: 354px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.rectangle-5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 940px;
+  height: 100px;
+  left: 30%;
+  top: 527px;
+
+  background: linear-gradient(94.43deg,
+      rgba(249, 249, 249, 0.49) 34.95%,
+      rgba(249, 249, 249, 0.175) 67.01%);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+
+.city {
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  left: 4%;
+  top: 17px;
+
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.city span {
+  position: absolute;
+  width: 44px;
+  height: 19px;
+  left: 7px;
+  top: 4px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  /* or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6d6d6d;
+}
+
+.select-your-city {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 2%;
+  top: 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.guests {
+  position: absolute;
+  width: 210px;
+  height: 70px;
+  left: 27%;
+  top: 17px;
+
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.living {
+  position: relative;
+  top: -30%;
+}
+
+.stay {
+  position: relative;
+  top: -80%;
+}
+
+.guests span {
+  position: absolute;
+  width: 44px;
+  height: 19px;
+  left: 7px;
+  top: 4px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  /* or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6d6d6d;
+}
+
+.add-guests {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 23%;
+  top: 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.dates {
+  position: absolute;
+  width: 210px;
+  height: 70px;
+  left: 52%;
+  top: 17px;
+
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.dates span {
+  position: absolute;
+  width: 44px;
+  height: 19px;
+  left: 7px;
+  top: 4px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.select-your-dates {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 51%;
+  top: 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.image-3 {
+  position: absolute;
+  width: 35px;
+  height: 24.5px;
+  left: 420px;
+  top: 150%;
+}
+
+.search-text-icon {
+  position: absolute;
+  width: 210px;
+  height: 70px;
+  left: 76%;
+  top: 17px;
+
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 16px;
+}
+
+.icon-search {
+  position: absolute;
+  left: 10%;
+  right: 0.01%;
+  top: 30%;
+  bottom: -0.01%;
+}
+
+.search {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 15%;
+  top: 20px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 110%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exo2-normal-dove-gray-15px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-exo_2);
+  font-size: var(--font-size-xs);
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.ubuntu-normal-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-ubuntu);
+  font-size: var(--font-size-m);
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.dancingscript-bold-white-45px {
+  color: var(--white);
+  font-family: var(--font-family-dancing-script);
+  font-size: var(--font-size-m);
+  font-weight: 700px;
+  font-style: normal;
+}
+
+.ubuntu-medium-white-26px {
+  color: var(--white);
+  font-family: var(--font-family-ubuntu);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media screen and (max-width: 844px) {
+  .overlap-group {
+    width: 500px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .bar {
+    position: relative;
+    left: 50%;
+    background: url(assests/bar.png);
+  }
+
+  .living {
+    position: absolute;
+    left: -6%;
+    top: -20%;
+    font-size: 30px;
+  }
+
+  .stay {
+    position: relative;
+    top: -686%;
+  }
+
+  .rectangle-5 {
+    height: 400px;
+    top: 300px;
+    width: 310px;
+    left: 20%;
+  }
+
+  .exo2-normal-dove-gray-15px {
+    position: relative;
+    left: 20%;
+    margin-top: 10px;
+  }
+
+  .ubuntu-normal-black-22px {
+    left: 18%;
+    top: 63px;
+  }
+
+  .exo2-bold-white-52px {
+    font-size: 30px;
+  }
+
+  .add-guests {
+    top: 144px;
+    left: 27px;
+  }
+
+  .select-your-city {
+    left: 47px;
+  }
+
+  .select-your-dates {
+    top: 55%;
+  }
+
+  .search-text-icon {
+    left: 20%;
+    top: 71%;
+  }
+
+  .make-your-stay-painless-with-us {
+    position: relative;
+    width: 462px;
+    height: 68px;
+    left: 0%;
+    top: 354px;
+
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
